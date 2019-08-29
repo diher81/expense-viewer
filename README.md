@@ -1,0 +1,1 @@
+Personal project to generate an overview of my expenses.
