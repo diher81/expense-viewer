@@ -16,5 +16,4 @@ public class ExpenseController {
     public ResponseEntity findAllExpenses() {
         return ResponseEntity.ok(expenseService.findAllExpenses());
     }
-
 }
