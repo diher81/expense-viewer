@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.time.LocalDate;
 
 @Entity
 public class Expense {
@@ -13,7 +14,11 @@ public class Expense {
     private int id;
 
     @Column
+    private String category;
+
+    @Column
     private String description;
 
-
+    @Column
+    private LocalDate date;
 }
