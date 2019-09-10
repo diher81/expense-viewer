@@ -1,0 +1,2 @@
+
+create table expenses (id serial primary key, category varchar, description varchar, date date);
