@@ -19,4 +19,20 @@ public class Expense {
 
     @Column
     private LocalDate date;
+
+    public int getId() {
+        return id;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
 }
