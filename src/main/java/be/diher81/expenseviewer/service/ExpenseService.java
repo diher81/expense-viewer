@@ -8,4 +8,5 @@ public interface ExpenseService {
 
     List<Expense> findAllExpenses();
 
+    Expense save(Expense expense);
 }
