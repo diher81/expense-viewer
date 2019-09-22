@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS expenses;
+CREATE TABLE expenses (UUID uuid PRIMARY KEY, category VARCHAR, description VARCHAR, price NUMERIC,
+actor VARCHAR, timestamp TIMESTAMP);
